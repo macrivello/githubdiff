@@ -16,7 +16,7 @@ import retrofit2.converter.moshi.MoshiConverterFactory
 @Module
 object NetworkModule {
     val BASE_URL = "https://api.github.com"
-    val PERSONAL_API_TOKEN = "40b2b674635257e1c5f28bd303063dbdd6b28501"
+    val PERSONAL_API_TOKEN = "de18a0e4ab5f591c77691b56c6a1d020fdc311ab"
     val AUTH_HEADER = "Authorization"
     val AUTH_HEADER_VAL = "Bearer " + PERSONAL_API_TOKEN
 
